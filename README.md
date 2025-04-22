@@ -88,10 +88,34 @@ Instala las dependencias:
 ```bash
 pip install pandas matplotlib
 ```
+
+---
+# Entonces... ¿Cuál tienda debería vender?
+
+Para resolver esta pregunta me gustaría analizar los datos recogidos previamente:
+
+No se evidencia una gran diferencia entre las ganancias de los cuatro negocios, aunque el que tuvo menos fue el negocio cuatro.
+Aunque se evidencia que en cada tienda varían un poco los productos que más se venden, cada una sigue moviendo bastantes unidades. No hay mucha diferencia.
+
+## Calificación promedio por tienda
+
+Aunque la Tienda 1 tiene las calificaciones más bajas, no hay mucha diferencia con las demás. Todas están alrededor del 4/5, lo que indica que el servicio al cliente es bastante aceptable en general.
+Costos de envío promedio por tienda
+
+En los costos de envío se nota que la Tienda 1 tuvo costos un poco más altos, pero nada que se dispare tanto como para decir que eso esté afectando fuertemente las ventas.
+
+## Conclusión
+
+Aunque la Tienda 4 fue la que menos vendió, la diferencia en ingresos no es tan significativa.
+
+Todas las tiendas venden bien, tienen buena rotación de productos, calificaciones decentes y gastos parecidos.
+
+Entonces... ¿cuál debería vender?
+
+En este caso, no hay una tienda que destaque negativamente al punto de tener que venderla inmediatamente. Pero si tuviera que elegir una por optimización, probablemente sería la Tienda 4, ya que es la que menos factura y su volumen de ventas tampoco la diferencia para bien.
+
+Esto no significa que sea una mala tienda, pero si la idea es enfocar recursos, sería la menos dolorosa de soltar.
+
 ## Notas finales
 
 Este análisis es una forma de practicar análisis exploratorio con pandas y gráficos básicos. Me ayudó a entender mejor cómo manejar datos reales y presentar la información de manera clara.
-
----
-
-¿Querés que también te ayude a organizar las carpetas del repo (`/img`, `/data`, etc.) o te creo un ejemplo de cómo subir los gráficos?
